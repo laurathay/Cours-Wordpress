@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<!-- https://developer.wordpress.org/reference/ -->
 <html <?php language_attributes(); ?>> <!-- a la place de lang="en" dir: "ltr" -->
 <head>
   <meta charset="<?php bloginfo('charset'); ?>"> <!-- a la place de utf-8 -->
-  <meta name="description" content="<?php bloginfo('description'); ?>">  <!-- cette balise meta est copié coller pour donner la description SEO friendly ou niche -->
+  <meta name="description" content="<?php bloginfo('description'); ?>">  <!-- cette balise meta est copié coller pour donner la description SEO friendly ou niche (technico-marketing) -->
   <meta name="author" content="<?php bloginfo('author'); ?>"> <!-- cette balise meta est copié coller pour décrire l'auteur -->
   <title><?php bloginfo('name');?></title> <!-- à la place du titre Blog -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
